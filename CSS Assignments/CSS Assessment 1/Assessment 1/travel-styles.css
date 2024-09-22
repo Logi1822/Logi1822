@@ -1,0 +1,148 @@
+/* Element Selector: Applies to all paragraph elements */
+p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Class Selector: Applies to elements with class="tagline" */
+.tagline {
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+}
+
+/* Class Selector: Applies to elements with class="description" */
+.description {
+    font-style: italic;
+    color: #666;
+}
+
+/* Class Selector: Applies to elements with class="learn-more" */
+.learn-more {
+    text-decoration: none;
+    color: darkblue;
+    border: 1px solid darkblue;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* ID Selector: Applies to the element with id="main-title" */
+#main-title {
+    color: teal;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* ID Selector: Applies to the element with id="footer-info" */
+#footer-info {
+    color: #999;
+    text-align: center;
+    font-size: 14px;
+}
+/* Element Selector: Applies to all paragraph elements */
+p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Class Selector: Applies to elements with class="tagline" */
+.tagline {
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+}
+
+/* Class Selector: Applies to elements with class="description" */
+.description {
+    font-style: italic;
+    color: #666;
+}
+
+/* Class Selector: Applies to elements with class="learn-more" */
+.learn-more {
+    text-decoration: none;
+    color: darkblue;
+    border: 1px solid darkblue;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* ID Selector: Applies to the element with id="main-title" */
+#main-title {
+    color: teal;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* ID Selector: Applies to the element with id="footer-info" */
+#footer-info {
+    color: #999;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Attribute Selector: Selects anchor tags that have a target attribute */
+a[target] {
+    color: purple;
+}
+
+/* Pseudo-class Selector: Change the style of links when hovered */
+a:hover {
+    color: orange;
+    font-weight: bold;
+}
+
+/* Pseudo-class Selector: Style the first child of a list */
+.package-list li:first-child {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+/* Pseudo-element Selector: Adds content after the h2 element */
+h2::after {
+    content: " 🌍";
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+/* Pseudo-class Selector: Style only the last paragraph in the footer */
+footer p:last-of-type {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Attribute Selector: Selects anchor tags that have a target attribute */
+a[target] {
+    color: purple;
+}
+
+/* Pseudo-class Selector: Change the style of links when hovered */
+a:hover {
+    color: orange;
+    font-weight: bold;
+}
+
+/* Pseudo-class Selector: Style the first child of a list */
+.package-list li:first-child {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+/* Pseudo-element Selector: Adds content after the h2 element */
+h2::after {
+    content: " 🌍";
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+/* Pseudo-class Selector: Style only the last paragraph in the footer */
+footer p:last-of-type {
+    margin-top: 20px;
+    font-weight: bold;
+}

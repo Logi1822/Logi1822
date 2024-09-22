@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>CSS Positioning Techniques</h1>
+
+    <section class="static-section">
+        <h2>Static Positioning</h2>
+        <div class="static-box">
+            This box uses <strong>static</strong> positioning, the default positioning in CSS.
+        </div>
+    </section>
+
+    <section class="relative-section">
+        <h2>Relative Positioning</h2>
+        <div class="relative-box">
+            This box uses <strong>relative</strong> positioning. It is offset relative to its normal position.
+        </div>
+    </section>
+
+    <section class="absolute-section">
+        <h2>Absolute Positioning</h2>
+        <div class="relative-wrapper">
+            <div class="absolute-box">
+                This box uses <strong>absolute</strong> positioning. It is positioned relative to its closest positioned ancestor.
+            </div>
+        </div>
+    </section>
+
+    <section class="fixed-section">
+        <h2>Fixed Positioning</h2>
+        <div class="fixed-box">
+            This box uses <strong>fixed</strong> positioning. It stays fixed relative to the viewport.
+        </div>
+    </section>
+
+    <section class="sticky-section">
+        <h2>Sticky Positioning</h2>
+        <div class="sticky-box">
+            This box uses <strong>sticky</strong> positioning. It sticks to the top when you scroll past it.
+        </div>
+    </section>
+
+    <section class="content-section">
+        <h2>Scroll Down to See Sticky Effect</h2>
+        <p>Additional content to show sticky positioning.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+    </section>
+</body>
+</html>
+

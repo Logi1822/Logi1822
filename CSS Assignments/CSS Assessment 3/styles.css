@@ -1,0 +1,74 @@
+    /* General Typography */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-style: italic;
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Section Titles */
+h2 {
+    font-family: 'Verdana', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+/* Phone Models */
+.phone h3 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #007BFF;
+}
+
+.phone .description {
+    font-family: 'Times New Roman', serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #555;
+}
+
+.phone .highlight {
+    font-style: italic;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.phone .price {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e63946;
+}
+
+/* Footer */
+footer p {
+    font-family: 'Arial', sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #999;
+    margin-top: 50px;
+}

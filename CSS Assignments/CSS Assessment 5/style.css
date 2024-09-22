@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;         
+    width: 80%;                    
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.item {
+    background-color: teal;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1; 
+    margin: 0 10px; 
+}

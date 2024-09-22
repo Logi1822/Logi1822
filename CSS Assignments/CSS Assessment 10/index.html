@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Responsive Images </h1>
+
+    <img 
+        src="Galaxy.jpg" 
+        alt="Galaxy" 
+        srcset="Galaxy.jpg 480w, 
+                Galaxy.jpg 800w, 
+                Galaxy.jpg 1200w"
+        sizes="(max-width: 600px) 480px,
+               (max-width: 900px) 800px,
+               1200px">
+    
+</body>
+</html>

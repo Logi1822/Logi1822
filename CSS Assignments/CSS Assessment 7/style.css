@@ -1,0 +1,27 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 100px 200px;
+
+  grid-gap: 10px;
+
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: lightblue;
+  border: 1px solid darkblue;
+  padding: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.grid-item:nth-child(1) {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+}
+.grid-item:nth-child(6) {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}

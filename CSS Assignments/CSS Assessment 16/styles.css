@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 15px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.menu li:hover {
+    background-color: #0056b3; /* Hover effect */
+}
+
+.menu li:active {
+    background-color: #004085; /* Active state */
+}
+
+.menu li:nth-child(even) {
+    background-color: #0056b3; /* Styling even items */
+}
+
+.btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #218838; /* Hover effect */
+}
+
+.btn:focus {
+    outline: 3px solid #ffc107; /* Focus effect */
+}
+
+.box {
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    position: relative;
+}
+
+.box::before {
+    content: 'Note: ';
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.box::after {
+    content: ' - This is a pseudo-element.';
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+}

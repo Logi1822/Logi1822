@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        .content {
+            flex: 1;
+            background-color: #f1f1f1;
+            padding: 20px;
+            margin: 10px 0;
+        }
+
+        .hidden-mobile {
+            display: block;
+        }
+
+        @media screen and (max-width: 600px) {
+            .container {
+                flex-direction: column;
+            }
+
+            header {
+                font-size: 1.5rem;
+            }
+
+            .content {
+                font-size: 1rem;
+            }
+
+            .hidden-mobile {
+                display: none;
+            }
+        }
+
+        @media screen and (min-width: 601px) and (max-width: 1024px) {
+            .container {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            header {
+                font-size: 2rem;
+            }
+
+            .content {
+                font-size: 1.2rem;
+                flex: 1;
+                margin: 0 10px;
+            }
+
+            .hidden-mobile {
+                display: block;
+            }
+        }
+
+        @media screen and (min-width: 1025px) {
+            .container {
+                flex-direction: row;
+            }
+
+            header {
+                font-size: 2.5rem;
+            }
+
+            .content {
+                font-size: 1.5rem;
+                flex: 1;
+                margin: 0 15px;
+            }
+
+            .hidden-mobile {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Responsive Web Design</h1>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <p>This is the main content section.</p>
+        </div>
+
+        <div class="content hidden-mobile">
+            <p>This section is hidden on mobile devices but visible on tablet and desktop views.</p>
+        </div>
+
+        <div class="content">
+            <p>Another content section that adapts to screen size.</p>
+        </div>
+    </div>
+
+</body>
+</html>

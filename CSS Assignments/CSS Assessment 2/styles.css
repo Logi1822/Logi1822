@@ -1,0 +1,83 @@
+/* Global styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header styling with gradient background */
+.header {
+    background: linear-gradient(90deg, #ffb6c1, #ff69b4);
+    text-align: center;
+    padding: 50px 0;
+    color: blueviolet;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
+
+/* Introduction section with background image */
+.intro {
+    background-image: url('https://example.com/wedding-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 80px 20px;
+    color: greenyellow;
+}
+
+.intro h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.1em;
+}
+
+/* Services section */
+.services {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.services h2 {
+    color: #ff69b4;
+}
+
+.service-box {
+    background-color: #fdf0f5;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-box h3 {
+    color: orangered;
+}
+
+.service-box p {
+    color: #333;
+}
+
+/* Footer with solid background color */
+.footer {
+    background-color: #333;
+    color: blueviolet;
+    text-align: center;
+    padding: 20px 0;
+}

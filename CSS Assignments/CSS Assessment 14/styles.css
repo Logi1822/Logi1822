@@ -1,0 +1,42 @@
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(25%);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+h1.slideIn {
+    animation: slideIn 3s ease-out 1s forwards;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        background-color: #ffcccb;
+    }
+    50% {
+        transform: scale(1.2);
+        background-color: #f48fb1;
+    }
+    100% {
+        transform: scale(1);
+        background-color: blueviolet;
+    }
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 50px auto;
+    animation: pulse 2s ease-in-out infinite;
+    animation-delay: 0.5s;
+}
